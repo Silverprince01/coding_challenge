@@ -5,6 +5,14 @@
 }
 .App {
     font-family: sans-serif;    
+    background-color: aqua;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto 0;
+
   }
   
   h1{
@@ -17,4 +25,5 @@
 
     li{
       margin: 10px 0;
+      font-size: medium;
     }
